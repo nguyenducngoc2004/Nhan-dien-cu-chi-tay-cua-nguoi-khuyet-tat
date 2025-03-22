@@ -1,27 +1,4 @@
-✅ Xác định keypoints của bàn tay bằng **MediaPipe Holistic**.  
-✅ Lưu thông tin landmark vào các file `.csv` trong thư mục `extracted_data`.  
 
-### 5️⃣ Huấn luyện mô hình nhận diện cử chỉ tay  
-Sau khi có dữ liệu từ file CSV, tiến hành huấn luyện mô hình bằng lệnh sau:  
-```sh  
-python train.py  
-```
-Hệ thống sẽ:  
-✅ Đọc dữ liệu landmark từ các file `.csv`.  
-✅ Sử dụng **Mạng Neural Nhân tạo (ANN)** với kiến trúc *Sequential* để huấn luyện mô hình.  
-✅ Lưu mô hình huấn luyện được dưới dạng `hand_emotion_model.keras`.  
-
-### 6️⃣ Nhận diện cử chỉ tay và chuyển đổi thành giọng nói  
-Sau khi huấn luyện xong, có thể chạy chương trình nhận diện và chuyển thành giọng nói bằng lệnh sau:  
-```sh  
-python detect.py  
-```
-Hệ thống sẽ:  
-✅ Sử dụng **webcam** để quét cử chỉ tay trong **thời gian thực**.  
-✅ Nhận diện cảm xúc tương ứng dựa trên mô hình đã huấn luyện.  
-✅ Chuyển đổi cử chỉ thành **giọng nói** bằng thư viện `pyttsx3`.  
-
----
 
 ## 🛑 Lưu ý  
 ✔ Nhấn **'q'** để thoát chương trình nhận diện.  
@@ -110,3 +87,27 @@ python preprocess.py
 ```
 Hệ thống sẽ:  
 ✅ Đọc từng video trong thư mục `cam_xuc`.
+✅ Xác định keypoints của bàn tay bằng **MediaPipe Holistic**.  
+✅ Lưu thông tin landmark vào các file `.csv` trong thư mục `extracted_data`.  
+
+### 5️⃣ Huấn luyện mô hình nhận diện cử chỉ tay  
+Sau khi có dữ liệu từ file CSV, tiến hành huấn luyện mô hình bằng lệnh sau:  
+```sh  
+python train.py  
+```
+Hệ thống sẽ:  
+✅ Đọc dữ liệu landmark từ các file `.csv`.  
+✅ Sử dụng **Mạng Neural Nhân tạo (ANN)** với kiến trúc *Sequential* để huấn luyện mô hình.  
+✅ Lưu mô hình huấn luyện được dưới dạng `hand_emotion_model.keras`.  
+
+### 6️⃣ Nhận diện cử chỉ tay và chuyển đổi thành giọng nói  
+Sau khi huấn luyện xong, có thể chạy chương trình nhận diện và chuyển thành giọng nói bằng lệnh sau:  
+```sh  
+python detect.py  
+```
+Hệ thống sẽ:  
+✅ Sử dụng **webcam** để quét cử chỉ tay trong **thời gian thực**.  
+✅ Nhận diện cảm xúc tương ứng dựa trên mô hình đã huấn luyện.  
+✅ Chuyển đổi cử chỉ thành **giọng nói** bằng thư viện `pyttsx3`.  
+
+---
