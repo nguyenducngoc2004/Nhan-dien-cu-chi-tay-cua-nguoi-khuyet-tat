@@ -1,4 +1,4 @@
-
+# 🖐 Hệ thống nhận diện cử chỉ tay trong thời gian thực và chuyển những ký hiệu thành giọng nói 🎤
 ## 🚀 Giới thiệu  
 Dự án này sử dụng **MediaPipe, TensorFlow, OpenCV** để nhận diện cử chỉ tay và chuyển đổi chúng thành giọng nói thông qua webcam.  
 Hệ thống áp dụng **Mạng Neural Nhân tạo (ANN)** với kiến trúc *Sequential*, được huấn luyện để nhận diện **10 cử chỉ tay khác nhau**, giúp hỗ trợ giao tiếp cho người khiếm thính hoặc trong các tình huống đặc biệt.  
@@ -106,6 +106,6 @@ Hệ thống sẽ:
 ## 📝 Giấy phép  
 © 2025 Nhóm 4 - Lớp CNTT 1603 🎓  
 🏢 Trường Đại học Đại Nam
-# 🖐 Hệ thống nhận diện cử chỉ tay trong thời gian thực và chuyển những ký hiệu thành giọng nói 🎤
+
 
 ---
