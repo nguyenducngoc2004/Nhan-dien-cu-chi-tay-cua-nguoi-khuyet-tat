@@ -1,33 +1,4 @@
 
-
-## 🛑 Lưu ý  
-✔ Nhấn **'q'** để thoát chương trình nhận diện.  
-✔ Đảm bảo **môi trường đủ ánh sáng** để nhận diện chính xác.  
-✔ Nếu kết quả chưa tốt, có thể **thu thập thêm dữ liệu và huấn luyện lại mô hình**.  
-
----
-
-## 🖐 Các cử chỉ hỗ trợ  
-✅ 😠 **Bực bội** – "Bạn đang cảm thấy bực bội."  
-✅ 😞 **Buồn** – "Bạn đang cảm thấy buồn."  
-✅ 🍽 **Đói** – "Bạn đang cảm thấy đói."  
-✅ 😒 **Ghen tỵ** – "Bạn đang cảm thấy ghen tỵ."  
-✅ 🤩 **Hứng thú** – "Bạn đang cảm thấy hứng thú."  
-✅ 👎 **Không thích** – "Bạn đang cảm thấy không thích."  
-✅ 😟 **Lo lắng** – "Bạn đang cảm thấy lo lắng."  
-✅ 😡 **Tức giận** – "Bạn đang cảm thấy tức giận."  
-✅ 😀 **Vui** – "Bạn đang cảm thấy vui."  
-✅ 😳 **Xấu hổ** – "Bạn đang cảm thấy xấu hổ."  
-
----
-
-## 📝 Giấy phép  
-© 2025 Nhóm 4 - Lớp CNTT 1603 🎓  
-🏢 Trường Đại học Đại Nam
-# 🖐 Hệ thống nhận diện cử chỉ tay trong thời gian thực và chuyển những ký hiệu thành giọng nói 🎤
-
----
-
 ## 🚀 Giới thiệu  
 Dự án này sử dụng **MediaPipe, TensorFlow, OpenCV** để nhận diện cử chỉ tay và chuyển đổi chúng thành giọng nói thông qua webcam.  
 Hệ thống áp dụng **Mạng Neural Nhân tạo (ANN)** với kiến trúc *Sequential*, được huấn luyện để nhận diện **10 cử chỉ tay khác nhau**, giúp hỗ trợ giao tiếp cho người khiếm thính hoặc trong các tình huống đặc biệt.  
@@ -109,5 +80,32 @@ Hệ thống sẽ:
 ✅ Sử dụng **webcam** để quét cử chỉ tay trong **thời gian thực**.  
 ✅ Nhận diện cảm xúc tương ứng dựa trên mô hình đã huấn luyện.  
 ✅ Chuyển đổi cử chỉ thành **giọng nói** bằng thư viện `pyttsx3`.  
+
+---
+## 🛑 Lưu ý  
+✔ Nhấn **'q'** để thoát chương trình nhận diện.  
+✔ Đảm bảo **môi trường đủ ánh sáng** để nhận diện chính xác.  
+✔ Nếu kết quả chưa tốt, có thể **thu thập thêm dữ liệu và huấn luyện lại mô hình**.  
+
+---
+
+## 🖐 Các cử chỉ hỗ trợ  
+✅ 😠 **Bực bội** – "Bạn đang cảm thấy bực bội."  
+✅ 😞 **Buồn** – "Bạn đang cảm thấy buồn."  
+✅ 🍽 **Đói** – "Bạn đang cảm thấy đói."  
+✅ 😒 **Ghen tỵ** – "Bạn đang cảm thấy ghen tỵ."  
+✅ 🤩 **Hứng thú** – "Bạn đang cảm thấy hứng thú."  
+✅ 👎 **Không thích** – "Bạn đang cảm thấy không thích."  
+✅ 😟 **Lo lắng** – "Bạn đang cảm thấy lo lắng."  
+✅ 😡 **Tức giận** – "Bạn đang cảm thấy tức giận."  
+✅ 😀 **Vui** – "Bạn đang cảm thấy vui."  
+✅ 😳 **Xấu hổ** – "Bạn đang cảm thấy xấu hổ."  
+
+---
+
+## 📝 Giấy phép  
+© 2025 Nhóm 4 - Lớp CNTT 1603 🎓  
+🏢 Trường Đại học Đại Nam
+# 🖐 Hệ thống nhận diện cử chỉ tay trong thời gian thực và chuyển những ký hiệu thành giọng nói 🎤
 
 ---
